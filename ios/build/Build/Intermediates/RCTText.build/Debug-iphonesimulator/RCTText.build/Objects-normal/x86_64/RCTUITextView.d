@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/baoly/WebstormProjects/albums/node_modules/react-native/Libraries/Text/RCTUITextView.m \
-  /Users/baoly/WebstormProjects/albums/node_modules/react-native/Libraries/Text/RCTUITextView.h
+  /Users/baoly/WebstormProjects/ReactNative-Albums/node_modules/react-native/Libraries/Text/RCTUITextView.m \
+  /Users/baoly/WebstormProjects/ReactNative-Albums/node_modules/react-native/Libraries/Text/RCTUITextView.h

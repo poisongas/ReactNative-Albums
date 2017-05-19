@@ -1,2 +1,3 @@
-dependencies: /Users/baoly/WebstormProjects/albums/ios/albums/main.m \
-  /Users/baoly/WebstormProjects/albums/ios/albums/AppDelegate.h
+dependencies: \
+  /Users/baoly/WebstormProjects/ReactNative-Albums/ios/albums/main.m \
+  /Users/baoly/WebstormProjects/ReactNative-Albums/ios/albums/AppDelegate.h

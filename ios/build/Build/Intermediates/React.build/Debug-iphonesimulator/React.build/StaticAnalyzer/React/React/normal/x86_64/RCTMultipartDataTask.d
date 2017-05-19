@@ -1,4 +1,4 @@
 dependencies: \
-  /Users/baoly/WebstormProjects/albums/node_modules/react-native/React/Base/RCTMultipartDataTask.m \
-  /Users/baoly/WebstormProjects/albums/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
-  /Users/baoly/WebstormProjects/albums/node_modules/react-native/React/Base/RCTMultipartStreamReader.h
+  /Users/baoly/WebstormProjects/ReactNative-Albums/node_modules/react-native/React/Base/RCTMultipartDataTask.m \
+  /Users/baoly/WebstormProjects/ReactNative-Albums/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Users/baoly/WebstormProjects/ReactNative-Albums/node_modules/react-native/React/Base/RCTMultipartStreamReader.h
