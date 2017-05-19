@@ -1,53 +1,47 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
+// import libraries for making a components
+import React from 'react';
+import { Text, View } from 'react-native';
 
-import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
 
-export default class albums extends Component {
-  render() {
+//make a component
+
+
+const Header = () => {
+    const { textStyle, viewStyle } = styles;
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
-      </View>
+        <View style={viewStyle}>
+            <Text style={textStyle}>Albums!</Text>
+        </View>
     );
-  }
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
+const styles = {
+    viewStyle: {
+        backgroundColor: '#F8F8F8',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderBottomColor: '#F8F8F8',
+        borderBottomWidth: 1,
+       // borderRadius: 30,
+        height: 60,
+        paddingTop: 10,
+        opacity: 0.5,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.9,
+        elevation: 2,
+        position: 'relative'
 
-AppRegistry.registerComponent('albums', () => albums);
+    },
+
+    textStyle: {
+
+        fontSize: 30,
+        //backgroundColor: '#F8F8F8'
+
+    }
+};
+
+
+//make the component available to other parts of the app
+export default Header;
